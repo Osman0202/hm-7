@@ -15,6 +15,7 @@ class Bank:
     def getname(self):
         return self.__name
 
+
     def moneyX(self):
         customer = input("Введите сумму:")
         return f'Вы добавили средства на свой счет \nНа вашем счету: {self.getmoney() + int(customer)}'
